@@ -3,55 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shartaz Sajid Nahid — PhD Applicant, CSE / Machine Learning</title>
-<meta name="description" content="Shartaz Sajid Nahid — Lecturer in Computer Science & Engineering, prospective PhD student in machine learning.">
+<title>Shartaz Sajid Nahid (PhD Applicant, CSE / Machine Learning)</title>
+<meta name="description" content="Shartaz Sajid Nahid - Lecturer in Computer Science & Engineering, prospective PhD student in machine learning.">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231F3358'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23F6F2E9' text-anchor='middle'%3ESN%3C/text%3E%3C/svg%3E">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231a1a1a'/%3E%3Ctext x='32' y='42' font-family='Arial,Helvetica,sans-serif' font-size='24' fill='%23ffffff' text-anchor='middle'%3ESN%3C/text%3E%3C/svg%3E">
 
 <style>
   :root{
-    --paper:#f8f6f1;
-    --paper-raised:#f8f6f1;
-    --ink:#262220;
-    --muted:#6B6560;
-    --navy:#1F3358;
-    --claret:#7A2E2E;
-    --line:#DCD5C4;
-    --line-strong:#BEB49D;
-    --max:880px;
-    --nav-h:64px;
+    --font-main: Arial, Helvetica, "Segoe UI", Roboto, sans-serif;
+    --paper:#ffffff;
+    --paper-raised:#ffffff;
+    --ink:#1a1a1a;
+    --muted:#5c5c5c;
+    --accent:#1a4480;
+    --line:#e3e3e3;
+    --line-strong:#c9c9c9;
+    --max:860px;
+    --nav-h:56px;
   }
 
   *{box-sizing:border-box;}
-  html{scroll-behavior:smooth; scroll-padding-top: calc(var(--nav-h) + 18px);}
+  html{scroll-behavior:smooth; scroll-padding-top: calc(var(--nav-h) + 14px);}
   body{
     margin:0;
     background:var(--paper);
     color:var(--ink);
-    font-family:'IBM Plex Sans', sans-serif;
-    font-size:18px;
-    line-height:1.72;
+    font-family:var(--font-main);
+    font-size:17px;
+    line-height:1.55;
     -webkit-font-smoothing:antialiased;
   }
   h1,h2,h3{
-    font-family:'Source Serif 4', serif;
-    font-weight:600;
+    font-family:var(--font-main);
+    font-weight:700;
     margin:0;
     color:var(--ink);
   }
-  a{color:var(--navy); text-decoration-color:var(--line-strong); text-underline-offset:3px;}
-  a:hover{color:var(--claret);}
+  a{color:var(--accent); text-decoration-color:var(--line-strong); text-underline-offset:3px;}
+  a:hover{color:var(--ink);}
   .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
 
   /* ---------- nav ---------- */
   header.site-nav{
     position:sticky; top:0; z-index:50;
-    background:rgba(246,242,233,0.94);
-    backdrop-filter:saturate(140%) blur(4px);
+    background:rgba(255,255,255,0.96);
     border-bottom:1px solid var(--line);
     height:var(--nav-h);
   }
@@ -60,23 +55,23 @@
     height:100%; display:flex; align-items:center; justify-content:space-between;
   }
   .nav-mark{
-    font-family:'Source Serif 4', serif; font-weight:700; font-size:1.08rem;
-    color:var(--ink); text-decoration:none; letter-spacing:.01em;
+    font-family:var(--font-main); font-weight:700; font-size:1rem;
+    color:var(--ink); text-decoration:none;
   }
   .nav-mark:hover{color:var(--ink);}
-  nav.nav-links{display:flex; gap:28px;}
+  nav.nav-links{display:flex; gap:22px;}
   nav.nav-links a{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:.78rem; letter-spacing:.06em; text-transform:uppercase;
+    font-family:var(--font-main);
+    font-size:.86rem;
     color:var(--muted); text-decoration:none;
     padding:4px 0; border-bottom:1px solid transparent;
   }
   nav.nav-links a:hover, nav.nav-links a.active{
-    color:var(--navy); border-bottom-color:var(--navy);
+    color:var(--accent); border-bottom-color:var(--accent);
   }
   .nav-toggle{
     display:none; background:none; border:1px solid var(--line-strong);
-    width:38px; height:38px; border-radius:2px; cursor:pointer;
+    width:36px; height:36px; border-radius:2px; cursor:pointer;
     align-items:center; justify-content:center; padding:0;
   }
   .nav-toggle span, .nav-toggle span::before, .nav-toggle span::after{
@@ -87,107 +82,107 @@
   .nav-toggle span::after{position:absolute; top:6px;}
 
   /* ---------- hero ---------- */
-  section#about{padding:64px 0 56px;}
-  .hero{display:grid; grid-template-columns:1fr 200px; gap:48px; align-items:start;}
+  section#about{padding:40px 0 30px;}
+  .hero{display:grid; grid-template-columns:1fr 180px; gap:36px; align-items:start;}
   .eyebrow{
-    font-family:'IBM Plex Mono', monospace; font-size:.78rem;
-    letter-spacing:.08em; text-transform:uppercase; color:var(--navy);
-    display:flex; align-items:center; gap:10px; margin-bottom:14px;
+    font-family:var(--font-main); font-size:.8rem;
+    text-transform:uppercase; color:var(--accent);
+    display:flex; align-items:center; gap:10px; margin-bottom:12px;
   }
-  .eyebrow .num{color:var(--claret);}
+  .eyebrow .num{color:var(--accent);}
   .eyebrow::after{content:''; flex:1; height:1px; background:var(--line-strong); max-width:120px;}
-  .hero h1{font-size:clamp(2.2rem, 4vw, 3.1rem); line-height:1.15;}
+  .hero h1{font-size:clamp(2rem, 3.6vw, 2.7rem); line-height:1.18;}
   .hero .role{
-    font-family:'IBM Plex Mono', monospace; font-size:.9rem; letter-spacing:.03em;
-    color:var(--muted); margin-top:10px;
+    font-family:var(--font-main); font-size:1rem;
+    color:var(--muted); margin-top:8px;
   }
-  .hero .bio{margin-top:20px; max-width:56ch; color:var(--ink);}
-  .cta-row{display:flex; flex-wrap:wrap; gap:14px; margin-top:26px; align-items:center;}
+  .hero .bio{margin-top:14px; max-width:60ch; color:var(--ink);}
+  .cta-row{display:flex; flex-wrap:wrap; gap:12px; margin-top:18px; align-items:center;}
   .btn{
-    font-family:'IBM Plex Mono', monospace; font-size:.84rem; letter-spacing:.04em;
-    text-transform:uppercase; text-decoration:none;
-    padding:11px 20px; border:1px solid var(--navy); color:var(--navy);
+    font-family:var(--font-main); font-size:.86rem;
+    text-decoration:none;
+    padding:9px 18px; border:1px solid var(--ink); color:var(--ink);
     transition:background .15s ease, color .15s ease;
   }
-  .btn.primary{background:var(--navy); color:var(--paper);}
-  .btn.primary:hover{background:var(--claret); border-color:var(--claret); color:var(--paper);}
-  .btn:not(.primary):hover{background:var(--navy); color:var(--paper);}
-  .links-inline{font-family:'IBM Plex Mono', monospace; font-size:.84rem; color:var(--muted);}
+  .btn.primary{background:var(--ink); color:var(--paper);}
+  .btn.primary:hover{background:var(--accent); border-color:var(--accent); color:var(--paper);}
+  .btn:not(.primary):hover{background:var(--ink); color:var(--paper);}
+  .links-inline{font-family:var(--font-main); font-size:.9rem; color:var(--muted);}
   .links-inline a{color:var(--ink);}
-  .links-inline a:hover{color:var(--claret);}
+  .links-inline a:hover{color:var(--accent);}
 
-  .portrait{width:200px; height:250px; border:1px solid var(--line-strong); position:relative; overflow:hidden; background:var(--paper-raised);}
+  .portrait{width:180px; height:225px; border:1px solid var(--line-strong); position:relative; overflow:hidden; background:var(--paper-raised);}
   .portrait img{width:100%; height:100%; object-fit:cover; display:block;}
   .portrait .fallback{
     position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
-    font-family:'Source Serif 4', serif; font-size:2.4rem; color:var(--navy);
+    font-family:var(--font-main); font-weight:700; font-size:2.2rem; color:var(--accent);
     background:var(--paper-raised);
   }
 
   /* ---------- sections ---------- */
-  section{padding:36px 0; border-top:1px solid var(--line);}
-  section h2{font-size:1.95rem; line-height:1.2; margin-bottom:10px; letter-spacing:-0.01em;}
-  .section-intro{color:var(--muted); margin-top:8px; max-width:60ch; font-size:1.08rem;}
+  section{padding:24px 0; border-top:1px solid var(--line);}
+  section h2{font-size:1.6rem; line-height:1.25; margin-bottom:6px;}
+  .section-intro{color:var(--muted); margin-top:6px; max-width:60ch; font-size:1rem;}
 
   /* ledger / timeline entries */
-  .entry{display:grid; grid-template-columns:128px 1fr; gap:22px; padding-bottom:26px;}
+  .entry{display:grid; grid-template-columns:120px 1fr; gap:18px; padding-bottom:18px;}
   .entry:last-child{padding-bottom:0;}
   .entry-date{
-    font-family:'IBM Plex Mono', monospace; font-size:.78rem; color:var(--muted);
-    padding-top:.3em; letter-spacing:.02em;
+    font-family:var(--font-main); font-size:.85rem; color:var(--muted);
+    padding-top:.3em;
   }
-  .entry-body{position:relative; padding-left:22px; border-left:1px solid var(--line-strong);}
+  .entry-body{position:relative; padding-left:18px; border-left:1px solid var(--line-strong);}
   .entry-body::before{
     content:''; position:absolute; left:-5px; top:.4em; width:8px; height:8px;
-    border-radius:50%; background:var(--navy); border:2px solid var(--paper);
+    border-radius:50%; background:var(--accent); border:2px solid var(--paper);
   }
-  .entry-body h3{font-size:1.2rem;}
-  .entry-role{margin:4px 0 0; font-size:1.04rem; color:var(--ink);}
-  .entry-meta{margin:4px 0 0; font-size:.98rem; color:var(--muted);}
-  .entry-desc{margin:8px 0 0; font-size:1.04rem; color:var(--ink);}
+  .entry-body h3{font-size:1.1rem;}
+  .entry-role{margin:3px 0 0; font-size:.98rem; color:var(--ink);}
+  .entry-meta{margin:3px 0 0; font-size:.92rem; color:var(--muted);}
+  .entry-desc{margin:6px 0 0; font-size:.98rem; color:var(--ink);}
   .badge{
-    display:inline-block; font-family:'IBM Plex Mono', monospace; font-size:.7rem;
-    letter-spacing:.03em; text-transform:uppercase; color:var(--claret);
-    border:1px solid var(--claret); padding:1px 7px; margin-left:8px; vertical-align:middle;
+    display:inline-block; font-family:var(--font-main); font-size:.72rem;
+    text-transform:uppercase; color:var(--muted);
+    border:1px solid var(--line-strong); padding:1px 7px; margin-left:8px; vertical-align:middle;
   }
 
   /* research interests + skills rows */
-  .tagline-list{font-family:'IBM Plex Sans', sans-serif; font-size:1.12rem; margin-top:18px;}
+  .tagline-list{font-family:var(--font-main); font-size:1.02rem; margin-top:12px;}
   .tagline-list span::after{content:' \00b7 '; color:var(--line-strong);}
   .tagline-list span:last-child::after{content:'';}
 
-  .skill-row{display:grid; grid-template-columns:190px 1fr; gap:20px; padding:14px 0; border-top:1px solid var(--line);}
+  .skill-row{display:grid; grid-template-columns:180px 1fr; gap:16px; padding:10px 0; border-top:1px solid var(--line);}
   .skill-row:first-of-type{border-top:none;}
   .skill-label{
-    font-family:'IBM Plex Mono', monospace; font-size:.76rem; letter-spacing:.05em;
-    text-transform:uppercase; color:var(--navy); padding-top:2px;
+    font-family:var(--font-main); font-size:.82rem;
+    text-transform:uppercase; color:var(--accent); padding-top:2px;
   }
-  .skill-value{font-size:1.06rem;}
+  .skill-value{font-size:.98rem;}
 
   /* publications */
-  .pub{display:grid; grid-template-columns:36px 1fr; gap:18px; padding:20px 0; border-top:1px solid var(--line);}
+  .pub{display:grid; grid-template-columns:32px 1fr; gap:14px; padding:14px 0; border-top:1px solid var(--line);}
   .pub:first-of-type{border-top:none;}
-  .pub-index{font-family:'IBM Plex Mono', monospace; color:var(--claret); font-size:.95rem; padding-top:2px;}
+  .pub-index{font-family:var(--font-main); color:var(--muted); font-size:.92rem; padding-top:2px;}
   .pub-body p{margin:0;}
-  .pub-title{font-family:'Source Serif 4', serif; font-weight:600; font-size:1.14rem; line-height:1.4;}
-  .pub-venue{margin-top:6px !important; font-size:1rem; color:var(--muted);}
-  .pub-venue a{font-size:.98rem;}
+  .pub-title{font-family:var(--font-main); font-weight:700; font-size:1.02rem; line-height:1.4;}
+  .pub-venue{margin-top:5px !important; font-size:.94rem; color:var(--muted);}
+  .pub-venue a{font-size:.92rem;}
 
   /* contact */
-  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px; margin-top:24px;}
-  .contact-block h3{font-family:'IBM Plex Mono', monospace; font-size:.82rem; letter-spacing:.06em; text-transform:uppercase; color:var(--navy); font-weight:500;}
-  .contact-block ul{list-style:none; margin:14px 0 0; padding:0;}
-  .contact-block li{margin-bottom:10px; font-size:.98rem;}
-  .ref-card{margin-bottom:18px;}
+  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-top:16px;}
+  .contact-block h3{font-family:var(--font-main); font-size:.86rem; text-transform:uppercase; color:var(--accent); font-weight:700;}
+  .contact-block ul{list-style:none; margin:10px 0 0; padding:0;}
+  .contact-block li{margin-bottom:8px; font-size:.94rem;}
+  .ref-card{margin-bottom:14px;}
   .ref-card:last-child{margin-bottom:0;}
-  .ref-name{font-family:'Source Serif 4', serif; font-weight:600; font-size:1.04rem;}
-  .ref-meta{margin:2px 0 0; font-size:.9rem; color:var(--muted);}
+  .ref-name{font-family:var(--font-main); font-weight:700; font-size:.98rem;}
+  .ref-meta{margin:2px 0 0; font-size:.88rem; color:var(--muted);}
 
-  footer{padding:28px 0 40px; text-align:center;}
-  footer p{font-family:'IBM Plex Mono', monospace; font-size:.8rem; color:var(--muted); letter-spacing:.03em;}
+  footer{padding:18px 0 26px; text-align:center;}
+  footer p{font-family:var(--font-main); font-size:.82rem; color:var(--muted);}
 
   /* reveal */
-  .reveal{opacity:0; transform:translateY(14px); transition:opacity .5s ease, transform .5s ease;}
+  .reveal{opacity:0; transform:translateY(10px); transition:opacity .4s ease, transform .4s ease;}
   .reveal.in{opacity:1; transform:none;}
 
   @media (prefers-reduced-motion: reduce){
@@ -205,12 +200,12 @@
     nav.nav-links.open{display:flex;}
     nav.nav-links a{padding:10px 0; border-bottom:1px solid var(--line);}
     .nav-toggle{display:flex;}
-    .hero{grid-template-columns:1fr; gap:26px;}
-    .portrait{width:140px; height:175px; order:-1;}
+    .hero{grid-template-columns:1fr; gap:20px;}
+    .portrait{width:130px; height:163px; order:-1;}
     .entry, .skill-row, .contact-grid{grid-template-columns:1fr;}
     .entry-date{padding-top:0;}
-    .contact-grid{gap:32px;}
-    .pub{grid-template-columns:24px 1fr;}
+    .contact-grid{gap:24px;}
+    .pub{grid-template-columns:22px 1fr;}
   }
 </style>
 </head>
@@ -224,6 +219,7 @@
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#publications">Publications</a>
+      <a href="#ongoing">Ongoing Research</a>
       <a href="#experience">Experience</a>
       <a href="#awards">Awards</a>
       <a href="#contact">Contact</a>
@@ -239,9 +235,10 @@
       <div>
         <!-- <div class="eyebrow">About</div> -->
         <h1>Shartaz Sajid Nahid</h1>
-        <p class="role">Prospective PhD Student — Machine Learning</p> <!-- Computer Science &amp; Engineering / -->
-        <p class="bio">I am a Lecturer of CSE at East West University, and a research student with a strong interest in developing theoretically grounded machine learning methods. My research focuses on transfer learning, domain adaptation, representation learning, and explainable AI, with an emphasis on designing models that are robust, interpretable, and capable of generalizing across diverse domains. I am particularly interested in bridging theoretical foundations with practical machine learning to advance trustworthy and data-efficient intelligent systems.</p>
-        <p class="bio"></p>I received both my B.Sc. and M.Sc. in Software Engineering from the Institute of Information Technology, University of Dhaka, graduating with the highest academic distinction. My research has been published in a leading international journal, and I am actively pursuing new research directions in machine learning theory, transfer learning, and explanable AI. I am seeking Ph.D. opportunities to contribute to fundamental research while addressing challenging real-world problems through machine learning.</p>
+        <p class="role">Prospective PhD Student in Machine Learning</p> <!-- Computer Science &amp; Engineering / -->
+        <p class="bio">I am a Lecturer in the Department of Computer Science and Engineering at East West University. My research interests lie broadly in machine learning, with a particular focus on representation learning, subspace learning, transfer learning, and domain adaptation. Rather than relying primarily on empirical tuning, I am especially interested in developing theoretically grounded machine learning algorithms with rigorous mathematical foundations, provable guarantees, and broad applicability across diverse domains.</p>
+        <p class="bio">My master's research resulted in OCMTL (Orthogonal Core Matrix for Transfer Learning), a parameter-free transfer learning framework that learns a shared orthogonal subspace between source and target domains through iterative SVD updates with theoretical convergence guarantees. This work was published in a Q1 Elsevier Journal. My current research extends these ideas to new problems in transfer learning, while also exploring activity recognition and explainable AI.</p>
+        <p class="bio">I received both my B.Sc. and M.Sc. in Software Engineering from the Institute of Information Technology, University of Dhaka. I am currently seeking Ph.D. opportunities to further develop my research in machine learning, particularly in areas where mathematical analysis can lead to robust and generalizable learning algorithms. </p>
         <div class="cta-row">
           <a class="btn primary" href="assets/cv/CV_serif.pdf" download>Download CV</a>
           <span class="links-inline">
@@ -266,9 +263,9 @@
       <p class="tagline-list">
         <span>Machine Learning</span>
         <span>Transfer Learning</span>
-        <span>Pattern Recognition</span>
-        <span>Representation Learning</span>
-        <span>Explainable & Trustworthy AI</span>
+        <span>Domain Adaptation</span>
+        <span>Subspace Learning</span>
+        <span>Explainable AI</span>
       </p>
     </div>
   </section>
@@ -279,13 +276,13 @@
       <!-- <div class="eyebrow">Education</div> -->
       <h2>Academic background</h2>
 
-      <div style="margin-top:28px;">
+      <div style="margin-top:18px;">
         <div class="entry">
           <div class="entry-date">Nov 2025</div>
           <div class="entry-body">
             <h3>University of Dhaka</h3>
             <p class="entry-role">M.Sc. in Software Engineering</p>
-            <p class="entry-meta">CGPA 4.00 / 4.00 — Ranked 1st in class</p>
+            <p class="entry-meta">CGPA 4.00 / 4.00 - Ranked 1st in class</p>
           </div>
         </div>
         <div class="entry">
@@ -293,7 +290,7 @@
           <div class="entry-body">
             <h3>University of Dhaka</h3>
             <p class="entry-role">B.Sc. in Software Engineering</p>
-            <p class="entry-meta">CGPA 3.96 / 4.00 — Ranked 2nd in class</p>
+            <p class="entry-meta">CGPA 3.96 / 4.00 - Ranked 2nd in class</p>
           </div>
         </div>
         <!-- <div class="entry">
@@ -322,7 +319,7 @@
       <!-- <div class="eyebrow">Publications</div> -->
       <h2>Research publications</h2>
 
-      <div style="margin-top:24px;">
+      <div style="margin-top:16px;">
         <div class="pub">
           <div class="pub-index">[1]</div>
           <div class="pub-body">
@@ -348,23 +345,55 @@
     </div>
   </section>
 
+  <!-- ONGOING RESEARCH -->
+  <section id="ongoing">
+    <div class="wrap reveal">
+      <!-- <div class="eyebrow">Ongoing Research</div> -->
+      <h2>Ongoing research</h2>
+
+      <div style="margin-top:16px;">
+        <div class="entry">
+          <div class="entry-date">Finalizing manuscript</div>
+          <div class="entry-body">
+            <h3>Sewing activity recognition from CCTV footage</h3>
+            <p class="entry-desc">A framework for recognizing sewing activity on garment assembly lines: a worn color-band marker tracks the hand, motion trajectories are built from the tracked positions, and activity is classified from trajectory features. Built as part of a UGC-funded project on low-cost vision systems for assembly-line efficiency. Methods finalized, manuscript in progress.</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-date">Finalizing manuscript</div>
+          <div class="entry-body">
+            <h3>Transfer learning with subspace and distribution alignment</h3>
+            <p class="entry-desc">Extending the OCMTL framework beyond subspace alignment by incorporating distribution alignment. This approach learns a shared orthogonal subspace while simultaneously aligning the marginal and conditional distributions of source and target domains, providing a more comprehensive transfer learning solution with theoretical convergence guarantees.</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-date">Finalizing manuscript</div>
+          <div class="entry-body">
+            <h3>Partial least squares-based transfer learning</h3>
+            <p class="entry-desc">A transfer learning approach leveraging Partial Least Squares (PLS) to learn shared latent components between source and target domains. Unlike OCMTL which learns all shared components in a single orthogonal matrix, this method selectively identifies and learns the most relevant shared components, potentially offering improved interpretability and computational efficiency across diverse transfer learning tasks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PROFESSIONAL EXPERIENCE -->
   <section id="experience">
     <div class="wrap reveal">
       <!-- <div class="eyebrow">Professional Experience</div> -->
       <h2>Teaching &amp; work history</h2>
 
-      <div style="margin-top:28px;">
+      <div style="margin-top:18px;">
         <div class="entry">
-          <div class="entry-date">Dec 2025 — Present</div>
+          <div class="entry-date">Dec 2025 - Present</div>
           <div class="entry-body">
             <h3><a href="https://fse.ewubd.edu/computer-science-engineering/faculty-view/shartaz.nahid" target="_blank" rel="noopener">East West University</a></h3>
             <p class="entry-role">Lecturer, Department of Computer Science &amp; Engineering</p>
-            <p class="entry-desc">Courses: Statistics for Data Science, Object Oriented Concepts, IT Project Management and Entrepreneurship.</p>
+            <p class="entry-desc">Courses: Statistics for Data Science, Machine Learning, Object Oriented Concepts, IT Project Management and Entrepreneurship.</p>
           </div>
         </div>
         <div class="entry">
-          <div class="entry-date">Oct 2025 — Dec 2025</div>
+          <div class="entry-date">Oct 2025 - Dec 2025</div>
           <div class="entry-body">
             <h3>University of Liberal Arts Bangladesh</h3>
             <p class="entry-role">Adjunct Lecturer, Department of Computer Science &amp; Engineering</p>
@@ -372,7 +401,7 @@
           </div>
         </div>
         <div class="entry">
-          <div class="entry-date">May 2024 — Sep 2025</div>
+          <div class="entry-date">May 2024 - Sep 2025</div>
           <div class="entry-body">
             <h3>Institute of Information Technology, University of Dhaka</h3>
             <p class="entry-role">Instructor, Short Course Training Program</p>
@@ -380,7 +409,7 @@
           </div>
         </div>
         <!-- <div class="entry">
-          <div class="entry-date">Jan 2023 — Jun 2023</div>
+          <div class="entry-date">Jan 2023 - Jun 2023</div>
           <div class="entry-body">
             <h3>Padma Bank Limited</h3>
             <p class="entry-role">Intern, ICT Division</p>
@@ -397,19 +426,19 @@
       <!-- <div class="eyebrow">Funded Projects</div> -->
       <h2>Research assistantships</h2>
 
-      <div style="margin-top:28px;">
+      <div style="margin-top:18px;">
         <div class="entry">
-          <div class="entry-date">2024 — Present</div>
+          <div class="entry-date">2024 - Present</div>
           <div class="entry-body">
             <h3>Research Assistant</h3>
-            <p class="entry-desc">"A Low-cost Vision-based System to Improve Efficiency of Assembly Lines in Ready-made Garments Factories" — University Grants Commission, Government of Bangladesh.</p>
+            <p class="entry-desc">Vision-based sewing activity recognition for garment assembly lines, funded by the University Grants Commission, Government of Bangladesh. Manuscript described under <a href="#ongoing">Ongoing Research</a>.</p>
           </div>
         </div>
         <div class="entry">
-          <div class="entry-date">2024 — 2025</div>
+          <div class="entry-date">2024 - 2025</div>
           <div class="entry-body">
             <h3>Research Assistant</h3>
-            <p class="entry-desc">"Advanced NLP techniques and LLMs to automate data extraction from unstructured government documents" (confidential, under NDA) — Government of Bangladesh.</p>
+            <p class="entry-desc">Combined LLM fine-tuning, prompt-based extraction, and traditional NLP methods to pull structured information from unstructured government documents collected across multiple regions. Funded by the Government of Bangladesh; project details are confidential under NDA.</p>
           </div>
         </div>
       </div>
@@ -422,7 +451,7 @@
       <!-- <div class="eyebrow">Skills</div> -->
       <h2>Technical skills</h2>
 
-      <div style="margin-top:22px;">
+      <div style="margin-top:14px;">
         <div class="skill-row">
           <div class="skill-label">Programming</div>
           <div class="skill-value">MATLAB, C, C++, Java, Python, JavaScript, PHP</div>
@@ -453,23 +482,23 @@
       <!-- <div class="eyebrow"><span class="num">08</span> Awards &amp; Honors</div> -->
       <h2>Grants &amp; awards</h2>
 
-      <div style="margin-top:28px;">
+      <div style="margin-top:18px;">
         <div class="entry">
-          <div class="entry-date">2024 — 2025</div>
+          <div class="entry-date">2024 - 2025</div>
           <div class="entry-body">
             <h3>Research Fellowship for Master's Thesis</h3>
             <p class="entry-meta">ICT Division, Ministry of Posts, Telecommunications and Information Technology, Bangladesh</p>
           </div>
         </div>
         <div class="entry">
-          <div class="entry-date">2024 — 2025</div>
+          <div class="entry-date">2024 - 2025</div>
           <div class="entry-body">
             <h3>Talentpool Honors Scholarship</h3>
             <p class="entry-meta">Government of Bangladesh</p>
           </div>
         </div>
         <!-- <div class="entry">
-          <div class="entry-date">2019</div>
+          <div class="entry-date">2024 - 2025</div>
           <div class="entry-body">
             <h3>Champion, Yearly Competitive Programming Contest</h3>
             <p class="entry-meta">IIT, University of Dhaka</p>
@@ -485,7 +514,7 @@
       <!-- <div class="eyebrow">Thesis</div> -->
       <h2>Theses</h2>
 
-      <div style="margin-top:28px;">
+      <div style="margin-top:18px;">
         <div class="entry">
           <div class="entry-date">2024 — 2025</div>
           <div class="entry-body">
@@ -498,6 +527,7 @@
           <div class="entry-body">
             <h3>Honors Thesis</h3>
             <p class="entry-role">Automated Information Extraction and Visualization of Road Accident News</p>
+            <p class="entry-desc">Built a web application that scrapes Bangla news articles on road accidents, classifies them, extracts key details, and visualizes patterns in the data.</p>
           </div>
         </div>
       </div>
